@@ -12,7 +12,7 @@ var song_play = function(){
 //Live Audio and Video Stuff
 
 //Error and Success Callbacks
-var onFail = function(e) {
+/*var onFail = function(e) {
   console.log('Rejected!', e);
 };
 
@@ -47,4 +47,4 @@ $(document).ready(function() {
     navigator.getMedia  = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
     startRecording();
 });
-
+*/

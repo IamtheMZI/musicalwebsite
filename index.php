@@ -11,12 +11,8 @@
 </head>
 
 <body>
-
-<audio controls autoplay></audio>
-<video controls autoplay></video>
-<input onclick="audio_stream_and_record()" type="button" value="Audio Stream" />
-<input onclick="video_stream_and_record()" type="button" value="Video Stream" />
-
+<h1 id="title">Welcome to Monjoor Ilahee's Website</h1>
+<h2 id="subtitle">These is the list of my songs and recitations. To play, double click on any of the listed items.</h2>
 <div id = "aud_plr">
   <div id = "aud_plr_inr">
     <audio controls id="aud_ctl">
