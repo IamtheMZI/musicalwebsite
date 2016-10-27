@@ -1,0 +1,17 @@
+#aud_plr{
+   width:100%;
+   background:blue;
+}
+
+#aud_ctl{
+  width:100%;
+}
+
+.itm{
+   margin: auto;
+   width: 50%;
+   border: 3px solid green;
+   padding: 10px;
+   text-align:center;
+}
+
