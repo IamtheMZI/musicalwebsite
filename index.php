@@ -6,14 +6,19 @@
   src="https://code.jquery.com/jquery-3.1.1.js"
   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
   crossorigin="anonymous"></script>
-<script src="js/recorder.js"></script>
 <script src="js/index.js"></script>
 </head>
 
 <body>
 
-<audio controls autoplay></audio>
-<video controls autoplay></video>
+<audio controls="controls">
+    <source src="https://docs.google.com/uc?export=download&id=0B3xWpddWjpmhYzZISkt4ZUtCVjg"/>
+</audio>
+
+<audio controls="controls">
+    <source src="https://drive.google.com/open?id=0B3xWpddWjpmhYzZISkt4ZUtCVjg"/>
+</audio>
+
 <input onclick="audio_stream_and_record()" type="button" value="Audio Stream" />
 <input onclick="video_stream_and_record()" type="button" value="Video Stream" />
 
