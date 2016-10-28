@@ -13,7 +13,7 @@ function test_input($data) {
   return $data;
 }
 
-file_put_contents("ok.txt", $json, FILE_APPEND | LOCK_EX);
+file_put_contents("ok.txt", $json, FILE_WRITE | LOCK_EX);
 
 $json = '{"a":1,"b":2,"c":3,"d":4,"e":5}';
 
