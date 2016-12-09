@@ -1,0 +1,4 @@
+while sleep 60; do 
+	git pull https://github.com/iamthemzi/musicalwebsite
+done
+

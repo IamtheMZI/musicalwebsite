@@ -8,8 +8,6 @@ var song_play = function(){
    });
 
 }
-<<<<<<< HEAD
-=======
 
 //Live Audio and Video Stuff
 
@@ -50,4 +48,4 @@ $(document).ready(function() {
     startRecording();
 });
 */
->>>>>>> 943bf692988730e75f7195926c5d26396cbce4d4
+
